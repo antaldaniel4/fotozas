@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fényképezőgépek világa</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+<div class="header">
+<ul class="mul">
+  <li class="mli"><a href="1_index.html">Kezdőlap</a></li>
+  <li class="mli"><a href="2_KamFajt.html">Kamera fajták</a></li>
+  <li class="mli"><a href="3_objektivek.html">Objektívek</a></li>
+  <li class="mli"><a href="4_fotostilusok.html">Stílusok</a></li>
+  <li class="mli"><a class="active" href="5_which.html">Árajánlat kérés fotózásra</a></li>
+</ul>
+
+</div>
+<!-- Menu EHEZ NE NYÚLJ HOZZÁ -->
+<div class="transform2">Valentin napi akció -20%</div>
+<div id="site_content">
+
+<br>
+<br>
+
+
+<div id="content">
+<form action="valami.php" method="post" enctype="multipart/form-data">
+
+<h3>Alap ár: 10,000 Ft (tartalmaz 10 db nyers képet és 1 db retusált képet) </h3>
+
+<fieldset>
+        <legend>Smink</legend>	
+<p>Profi smink kell-e a fotózásra? (+8000 Ft)<br>
+      <label for="radio1id1">Igen: </label>
+      <input type="radio" id="radio1id1" name="radio1" value="1" />
+
+      <label for="radio1id2">Nem: </label>
+      <input type="radio" id="radio1id2" name="radio1" value="2" checked />
+</p>
+</fieldset>
+
+<fieldset>
+        <legend>Ruhabérlés (opcionális, ha több szettet szeretnél írd a megjegyzésbe)</legend>
+ <label for="musthave">Milyen a ruhaméreted?</label>
+      <select name="musthave" id="musthave" multiple size="9">
+        <option value="1">XXS</option>
+        <option value="2">XS</option>
+        <option value="3">S</option>
+        <option value="4">M</option>
+        <option value="5">L</option>
+        <option value="6">XL</option>
+        <option value="7">XXL</option>
+        <option value="8">XXXL</option>
+        <option value="9">Saját ruhát viszek</option>
+      </select> <br/>
+</fieldset>
+
+
+<fieldset>
+        <legend>Helyszín</legend>
+		
+	  <input type="checkbox" id="checkbox1" name="treasure" value="studio" />
+      <label for="checkbox1">Stúdió</label>
+      <br>
+	  <input type="checkbox" id="checkbox2" name="treasure" value="kulteri" />
+      <label for="checkbox2">Kültéri (Megjegyzés rovatban)</label>
+</fieldset>
+
+
+<fieldset>
+        <legend>Retusált képek</legend>
+<label>Hány darab retusált képet szeretnél kapni?</label>
+      <select name="kepekszama">
+        <option value="1">1</option>
+        <option value="2">2 (+2000 Ft /db)</option>
+        <option value="3">3 (+1900 Ft /db)</option>
+        <option value="4">5 (+1750 Ft /db)</option>
+        <option value="5">10 (+1500 Ft /db)</option>
+        <option value="6">15 (+1350 Ft /db)</option>
+        <option value="7">Egyéb (Megjegyzés rovatban)</option>
+      </select> <br/>
+</fieldset>
+
+<fieldset>
+        <legend>Megjegyzés</legend>
+<textarea name="szoveg" rows="6" cols="40"></textarea> <br/>
+</fieldset>
+</form>
+
+</div>
+</div>
+
+<footer>
+  <p>Készítette: Antal Dániel és Mojzes Bence sok sok szeretettel</p>
+</footer>
+
+</body>
+</html>

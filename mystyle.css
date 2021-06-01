@@ -1,0 +1,165 @@
+
+.mul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003366;
+}
+
+.mli {
+  float: left;
+}
+
+.mli a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: Bold;
+}
+
+      @keyframes pelda2 {
+          0% { background-color: darkblue; }
+          25% { background-color: blue; }
+          50% { background-color: white; }
+          75% { background-color: orange; }
+          100% { background-color: darkorange; }
+      }
+
+      .animation {
+          width: 100px;
+          height: 100px;
+          margin:20px;
+          animation-iteration-count: infinite;
+          animation-name: pelda2;
+          animation-duration: 4s;
+          animation-direction: alternate;
+      }
+
+.sorki {
+	text-align:justify;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.center {
+        margin: auto;
+	text-align: center;
+}
+
+    .transform2 {
+      transform: translate(20px,90px) rotate(20deg);
+      width:100px;
+      height:100px;
+      background-color: purple;
+      position:absolute;
+      }
+
+.mli a:hover:not(.active) {
+  background-color: #336699;
+}
+
+.active {
+  background-color: #ff9900;
+}
+
+.transition {
+	  padding:10px;
+      background-color: darkblue;
+      color: orange;
+      transition: background-color 2s, color 2s, padding 2s;
+      transition-timing-function: ease-in;
+    }
+
+.transition:hover {
+      background-color: orange;
+    }
+
+.borderradius {
+      box-sizing:content-box;
+      border:10px solid #003366;
+      padding:10px;
+      margin: auto;
+      width: 40%;
+      height:130px;
+      background-color: #ff9900;
+      border-radius: 10px 10px 10px 10px;
+      text-align: center;
+}
+
+.borderradius2 {
+      box-sizing:content-box;
+      border:10px solid #003366;
+      padding:10px;
+      margin: auto;
+      width: 50%;
+      height:80px;
+      background-color: #ff9900;
+      border-radius: 10px 10px 10px 10px;
+      text-align: center;
+}
+
+#side_content {
+    float: right;
+    width: 30%;
+    padding: 0 15px 20px 15px;
+}
+
+#content {
+    text-align: left;
+    float: left;
+    width: 60%;
+    padding: 0;
+}
+
+#site_content {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    padding: 0 24px 20px 20px;
+    background: #fff;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+table {
+	background-color: white;
+}
+
+body {
+  background-color: #ddd6d5;
+}
+
+
+
+      .animation:hover {
+          animation: pelda 3s linear 0s infinite reverse;
+      }
+
+}
+
+@keyframes example {
+  from {background-color: lightblue;}
+  to {background-color: darkblue;}
+}
+
+@keyframes pelda {
+          0% { background-color: darkblue; }
+          25% { background-color: lightblue; }
+          50% { background-color: white; }
+          75% { background-color: navy; }
+          100% { background-color: blue; }
+      }
+	  
+	  
+
